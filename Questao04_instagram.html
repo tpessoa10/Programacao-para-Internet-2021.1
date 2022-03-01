@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="instagram_icon.png" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(128, 128, 128, 0.116)
+        }
+        #cabecalho{
+            border: solid 1px;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+        }
+        #st{
+            padding: 50px;
+        }
+        h1{
+            display: inline;
+            padding-left: 150px;
+            padding-right: 200px;
+            height: 32px;
+            width: 32px;
+        }
+        input{
+            display: inline;
+        }
+        #icon1{
+            display:inline;
+            height: 32px;
+            width: 32px;
+            padding-left: 200px;
+        }
+        #icon2, #icon3, #icon4, #icon_perfil{
+            display:inline;
+            height: 32px;
+            width: 32px;
+            padding-left: 32px;
+        }
+        .icon_st{
+            display: inline;
+            height: 54px;
+            width: 54x;
+            padding: 16px;
+        }
+        #st{
+            display: inline-flex;
+            background-color: white;
+            padding: 1px;
+            border: solid 1px;
+            position: relative;
+            left: 200px;
+            top: 50px;
+            overflow-x: scroll;
+        }
+        .st1{
+            display: inline;
+            padding-left: 10px;
+            padding-right: 10px;
+        }              
+        #userName{
+            position: relative;
+            left: 50px;
+            bottom: 50px;
+            
+        }
+        #publicacao{
+            border: solid 1px;
+            position: relative;
+            left: 200px;
+            top: 100px;
+            width: 640px;
+            height: 50px;
+            padding-top: 10px;
+            background-color: white;
+        }
+        #opc{
+            position: relative;
+            left: 545px;
+            bottom: 15px;
+        }
+        #pub_img{
+            position: relative;
+            bottom: 45px;
+        }
+        .icon_pub{
+            position: relative;
+            bottom: 30px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        #save_icon{
+            position: relative;
+            left: 450px;
+            bottom: 30px;
+        }
+        .curt_coment{
+            position: relative;
+            bottom: 40px;
+            left: 10px;
+        }
+        #perfil_usuario{
+            float: right;
+            position: relative;
+            right: 210px;
+            bottom: 180px;
+            display: flex;
+        }
+        #nome_user{
+            position: relative;
+            top: 15px;
+            right: 75px;
+        }
+        #sug_txt{
+            float: right;
+            position: relative;
+            right: 70px;
+            bottom: 70px;
+        }
+        #sugestoes{
+            float: right;
+            position: relative;
+            right: 1px;
+            
+        }
+        .sug_name{
+            position: relative;
+            bottom: 50px;
+            left: 50px;
+        }
+        .seguir{
+            position: relative;
+            bottom: 70px;
+            left: 180px;
+            color: blue;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <div id="cabecalho">
+        <h1>Instagram</h1>
+        <input type="text" placeholder="Pesquisar">
+        <img src="Icon1.png" alt="" id="icon1">
+        <img src="Icon2.png" alt="" id="icon2">
+        <img src="Icon3.png" alt="" id="icon3">
+        <img src="Icon4.png" alt="" id="icon4">
+        <img src="icon_perfil.png" alt="" id="icon_perfil">
+    </div>
+
+    <div id="st">
+        <div class="st1">
+        <img src="icon_st.png" alt="" class="icon_st">
+        <p class="p_st">UserName1</p>
+        </div>
+        <div class="st1">
+        <img src="icon_st.png" alt="" class="icon_st">
+        <p class="p_st">UserName2</p>
+        </div>
+        <div class="st1">
+        <img src="icon_st.png" alt="" class="icon_st">
+        <p>UserName3</p>
+        </div>
+        <div class="st1">
+        <img src="icon_st.png" alt="" class="icon_st">
+        <p>UserName4</p>
+        </div>
+        <div class="st1">
+        <img src="icon_st.png" alt="" class="icon_st">
+        <p>UserName5</p>
+        </div>
+        <div class="st1">
+        <img src="icon_st.png" alt="" class="icon_st">
+        <p>UserName6</p>
+        </div>
+    </div>
+   
+    <div id="publicacao">
+        <img src="icon_st.png" alt="" width="44" height="44" id="img_perfil">
+        <img src="tres-pontos.png" alt="" width="16" height="16" id="opc">
+        <p id="userName"><strong>UserName1</strong></p>
+        <img src="imagem.png" alt="" id="pub_img" height="530px" width="640px">  
+        <img src="like.png" alt="" height="32px" width="32px" class="icon_pub">
+        <img src="comment.png" alt="" height="32px" width="32px" class="icon_pub">
+        <img src="share.png" alt="" height="32px" width="32px" class="icon_pub">
+        <img src="save.png" alt="" height="32px" width="32px" id="save_icon">
+        <p class="curt_coment">123 curtidas</p>
+        <p class="curt_coment"><strong>UserName1</strong></p>
+        <input type="text" name="comentario" class="curt_coment" placeholder="Adicione um comentário...">
+    </div>
+
+    <div id="perfil_usuario">
+        <img src="icon_st.png" alt="" width="48" height="48">
+        <p id="sug_user"><strong>UserName1</strong></p>
+        <p id="nome_user">Nome usuário</p>
+    </div>
+    <p id="sug_txt"><Strong>Sugestões para você</Strong></p>
+    <div id="sugestoes">
+        <img src="icon_st.png" alt="" width="36px" height="36px">
+        <p class="sug_name">UserName7</p>
+        <p class="seguir"><strong>Seguir</strong></p>
+        <img src="icon_st.png" alt="" width="36px" height="36px">
+        <p class="sug_name">UserName8</p>
+        <p class="seguir"><strong>Seguir</strong></p>
+    </div>
+
+    
+
+</body>
+</html>
