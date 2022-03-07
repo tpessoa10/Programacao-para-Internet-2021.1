@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas práticas</title>
+    <style>
+        /*Redundancia*/
+        /*class ou Id*/
+        /*Seletores desnecessários*/
+        body{
+            background-color: aquamarine;
+        }
+        .div h1{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        .div h2{
+            font-style: italic;
+        }
+        .div{
+            font-size: large;
+        }
+    </style>
+</head>
+<body id="corpo">
+    <div class="div h1">
+    <h1>Boas práticas HTML e CSS</h1>
+    </div>
+    <div class="div h2">
+        <h2>Simplicidade</h2>
+    </div>
+    <div>
+        <p>
+            Faça o que você quiser, mas utilize o mínimo de código com a menor complexidade possível. 
+            Isso facilita o seu entendimento posteriormente e o entendimento de outros desenvolvedores
+             sobre o seu código.
+        </p>
+    </div>
+    <div class="div_h2">
+        <h2>Ordem</h2>
+    </div>
+    <div>
+        <p>Mantenha uma ordem nos atributos que você aplica.
+            Esse aqui não é bem uma regra, mas uma dica. As coisas ficam organizadas.</p>
+    </div>
+    <div class="div h2">
+        <h2>Especificidade</h2>
+    </div>
+    <div>
+        Quando necessário, utilize os seletores para estilos específicos de elementos muito repetidos.
+         Assim você evita com que vaze para outros elementos iguais.
+    </div>
+</body>
+</html>
