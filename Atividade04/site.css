@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+blockquote{
+    background-color: rgba(128, 128, 128, 0.473);
+}
+ul{
+    background-color: purple;
+    color: white;
+}
+li > a {
+    color: white;
+}
