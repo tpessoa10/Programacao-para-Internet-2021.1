@@ -1,0 +1,33 @@
+header{
+    background-color: rgba(27, 175, 27, 0.548);
+    padding-bottom: 30px;
+}
+aside{
+    float: right;
+    width: 180px;
+    padding: 10px;
+    border: solid 1px;
+    height: 620px;
+}
+nav{
+    width: 150px;
+    float: right;
+    border: solid 1px;
+    background-color: rgba(20, 119, 20, 0.521);
+    height:620px;
+}
+div{
+    width: 1200px;
+	margin: auto;
+	border: 1px solid gray;
+}
+main{
+    width: 80%;
+}
+li > a{
+    color: green;
+}
+footer{
+    background-color: rgba(27, 175, 27, 0.548);
+    border: solid 1px;
+}

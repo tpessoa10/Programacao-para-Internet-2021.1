@@ -1,0 +1,43 @@
+.card-body{
+    background-color: rgba(128, 128, 128, 0.356);
+}
+.card-body > h1{
+    font-size: 70px;
+    padding-left: 10%;
+}
+.card-body > p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.mini_menus{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mini_menus>.card>.card-body{
+    background-color: white;
+}
+footer{
+    padding-left: 240px;
+    padding-top: 50px;
+}
+main{
+    width: 80%;
+}
+.menu-lateral{
+    float: right;
+    width: 20%;
+}
+.menu-lateral>.flex-column>.nav-item{
+    border: solid 1px rgba(0, 0, 0, 0.39);
+}
+.nav-item:hover{
+    background-color: black;
+}
+.flex-column >.nav-item>a{
+    color: black;
+}
+.flex-column > .nav-item:hover{
+    background-color: blue;
+}

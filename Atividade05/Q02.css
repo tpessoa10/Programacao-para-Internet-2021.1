@@ -1,0 +1,22 @@
+.card-body{
+    background-color: rgba(128, 128, 128, 0.356);
+}
+.card-body > h1{
+    font-size: 70px;
+    padding-left: 10%;
+}
+.card-body > p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.mini_menus{
+    display: flex;
+    justify-content: center;
+}
+.mini_menus>.card>.card-body{
+    background-color: white;
+}
+footer{
+    padding-left: 240px;
+    padding-top: 50px;
+}
